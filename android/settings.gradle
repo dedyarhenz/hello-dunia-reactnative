@@ -1,0 +1,3 @@
+rootProject.name = 'hello_tgs1'
+
+include ':app'
