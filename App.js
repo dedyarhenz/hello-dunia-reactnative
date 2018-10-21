@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import React from 'react';
+import { Text, AppRegistry } from 'react-native';
 
-export default class Hello extends Component {
-  render() {
-    return (
-      <View>
-        <Text>Hello !</Text>
-      </View>
-    );
-  }
-}
+const App = () => (
+    <Text>Hello !</Text>
+  );  
+
+export default App;
+AppRegistry.registerComponent('hello_tgs1', () => App );
